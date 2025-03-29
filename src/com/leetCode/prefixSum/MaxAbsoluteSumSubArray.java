@@ -1,6 +1,4 @@
-package com.leetCode.arrays.prefixSum;
-
-import java.util.Map;
+package com.leetCode.prefixSum;
 
 public class MaxAbsoluteSumSubArray {
 

@@ -1,0 +1,40 @@
+package com.leetCode.string;
+
+public class MinRecolor {
+    public static void main(String[] args) {
+//        String blocks = "WBBWWBBWBW";
+        String blocks = "WWBBBWBBBBBWWBWWWB";
+        int k = 7;
+        MinRecolor obj = new MinRecolor();
+        System.out.println(obj.minimumRecolors(blocks, 16));
+    }
+
+    public int minimumRecolors(String blocks, int k) {
+        int minOps = Integer.MAX_VALUE;
+        int n = blocks.length();
+        System.out.println(n);
+        if (k == n) {
+
+            int count = 0;
+            for (char ch : blocks.toCharArray()) {
+                if (ch == 'W') {
+                    count++;
+                }
+            }
+            return count;
+        }
+
+        for (int i = 0; i <= n - k; i++) {
+            String s = blocks.substring(i, i + k);
+            int count = 0;
+            for (char ch : s.toCharArray()) {
+                if (ch == 'W') {
+                    count++;
+                }
+            }
+            minOps = Math.min(minOps, count);
+        }
+
+        return minOps;
+    }
+}

@@ -1,4 +1,4 @@
-package com.leetCode.arrays.prefixSum;
+package com.leetCode.prefixSum;
 
 public class CountPrefixAndSuffixPair {
     public static void main(String[] args) {

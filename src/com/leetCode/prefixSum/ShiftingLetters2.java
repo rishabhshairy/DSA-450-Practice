@@ -1,7 +1,4 @@
-package com.leetCode.arrays.prefixSum;
-
-import java.util.LinkedHashMap;
-import java.util.Map;
+package com.leetCode.prefixSum;
 
 /**
  * LC 2381
