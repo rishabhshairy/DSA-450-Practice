@@ -1,4 +1,4 @@
-package com.leetCode.arrays.prefixSum;
+package com.leetCode.prefixSum;
 
 public class ShiftingLetters {
     public static void main(String[] args) {

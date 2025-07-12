@@ -1,4 +1,4 @@
-package com.leetCode.arrays.prefixSum;
+package com.leetCode.prefixSum;
 
 import java.util.LinkedHashSet;
 import java.util.Set;

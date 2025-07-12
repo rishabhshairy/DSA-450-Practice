@@ -1,6 +1,4 @@
-package com.leetCode.arrays.prefixSum;
-
-import java.util.Arrays;
+package com.leetCode.prefixSum;
 
 public class WaysToSplitArray {
     public static void main(String[] args) {
